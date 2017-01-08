@@ -1,0 +1,27 @@
+body 
+{
+	background: 
+	url("http://tub.tubgit.com/reimg/resize-img.php?src=http://tub.tubgit.com/images247/cqolijtiqwq.jpg&h=1080&w=1920") 	repeat fixed;
+
+}
+ form  
+ {
+ 	border : 3px solid black;
+ 	padding :2%;
+ 	display:inline-block;
+ 	border-radius: 10%;
+ 	width: 200px;
+	height: 200px;
+	margin : 20% 20% 10% 40%;
+	background-color: grey;
+
+ }
+ p
+ {
+ 	font-size: 200%;	
+	font-weight: bold;
+	text-align: center;
+ }
+ input{
+ 	margin-left: 33%;
+ }
