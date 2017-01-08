@@ -1,0 +1,92 @@
+body 
+{
+	background: 
+	url("http://tub.tubgit.com/reimg/resize-img.php?src=http://tub.tubgit.com/images247/cqolijtiqwq.jpg&h=1080&w=1920") 	repeat fixed;
+
+}
+ form  
+ {
+ 	border : 3px solid black;
+ 	padding :2%;
+ 	display:inline-block;
+ 	border-radius: 10%;
+ 	width: 585px;
+	height: 460px;
+	margin : -6% 10% 10% 28%;
+	background-color: grey;
+
+ }
+ p
+ {
+ 	font-size: 200%;
+	margin : 10% 10% 10% 38%;
+	font-weight: bold;
+ }
+
+ div 
+ {
+ 	font-size:175%;
+ 	margin-top: 8px;
+ }
+ #message 
+ {
+width: 500px;
+height: 140px;
+ }
+
+ button
+ {
+ 	margin-top:15px;
+ 	font-size: 15px;
+ }
+
+ input
+ {
+ 	background-color:#ddd;
+ 	border:none;
+ 	border-radius: 5%;
+	height: 27px;
+	text-align: left;
+
+ }
+
+textarea
+{
+	background-color:#ddd; 
+	border:none;
+}
+label
+{
+	margin-top: 50px;
+}
+#courriel
+{
+	width:250px;
+}
+
+#nom,#prenom
+{
+	display:inline-block;
+
+}
+form:nth-child(2) > div:nth-child(1) > label:nth-child(3) /*  prenom */
+{
+	margin-left:30px;
+}
+body > form:nth-child(2) > div:nth-child(5) > input:nth-child(2)
+{
+	background: transparent;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

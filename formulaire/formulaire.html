@@ -1,0 +1,37 @@
+ <link rel="stylesheet" type="text/css" href="assets/formulaire.css">
+<body>
+	<p> Envoyez nous votre projet !! </p>
+	<form action="/ma-page-de-formulaire" method="post">
+	    <div>
+	        <label for="nom">Nom :</label>
+	        <input type="text" id="nom" placeholder="Ex : Durand" />
+	        <label for="prénom">Prenom :</label>
+	        <input type="text" id="prenom" placeholder="Ex : Jean"/>
+	    </div>
+	    <div>
+	        <label for="portable">Portable :</label>
+	        <input type="tel" id="numtel" placeholder="Ex : 0606060606"/>
+	    </div>	    
+ 		<div>Classe :
+			 <label><input name="size" type="radio" value="s"> G1S1</label>
+			 <label><input name="size" type="radio" value="m"> G2S1</label>
+			 <label><input name="size" type="radio" value="l"> G3S1</label>
+			 <label><input name="size" type="radio" value="l"> G4S1</label>
+			 <label><input name="size" type="radio" value="l"> G5S1</label>
+		</div>
+	    <div>
+	        <label for="courriel">Adresse Mail :</label>
+	        <input type="email" id="courriel" placeholder="Ex : Durand.Jean@mail.com" />
+	    </div>
+	     <div>
+	    	<label for="lien">Projet :</label>
+	    	<input type="file"/>
+	    </div>
+	    <div>
+	        <label for="message">Message :</label>
+	        <textarea id="message" placeholder="Ecrivez votre message ici."></textarea>
+	    </div>
+	   
+	    <input type="button" name="Envoyer" value="Envoyer" onclick="self.location.href='Merci.html'"> <input type="button" name="Annuler" value="Annuler" onclick="self.location.href='../Accueil.html'">
+	</form>
+</body>
